@@ -2,7 +2,6 @@ from transcriber import transcribe
 import subprocess
 
 file_output = 'podcast.flac'
-podcast_id = '863897795'
 url = 'https://content.production.cdn.art19.com/episodes/1869f87a-edca-4737-b3fe-cad55c90559f/bf53c9567ac7dd803490004ceb6c37681f369a079afe9354696d472fca8f977ce5640787f81a3650a40bc29eda89cb846f8ae5a7d76db605ae3208166fac2088/TheTimFerrissShow_Patrick%20Collison.mp3#t=420'
 
 def create_file(url, file_output):
